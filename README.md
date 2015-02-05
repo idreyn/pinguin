@@ -5,8 +5,9 @@ Tiny Pushbullet CLI utility. Requires 'click' and 'pushbullet.py'
     pip install pushbullet.py
     
 You'll also need to find your [Pushbullet API token](http://pushbullet.com/account). Then you can
-
-    cp pinguin.py /usr/bin/pinguin
+    
+    chmod +x pinguin.py
+    sudo cp pinguin.py /usr/bin/pinguin
     
 The usage syntax is:
 
