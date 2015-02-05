@@ -1,4 +1,7 @@
 # pinguin
+
+![A baby pinguin!](http://i.imgur.com/436P5JJ.jpg)
+
 Tiny Pushbullet CLI utility. Requires 'click' and 'pushbullet.py'
 
     pip install click
