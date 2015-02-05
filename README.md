@@ -14,7 +14,7 @@ You'll also need to find your [Pushbullet API token](http://pushbullet.com/accou
     
 The usage syntax is:
 
-    pinguin [-t to set token] "MESSAGE" ["MESSAGE DETAIL"]
+    pinguin [-t to set token] ["MESSAGE"] ["MESSAGE DETAIL"]
 
 This is basically a useful tool for when you want to be notified about the end of some long command line task, as in:
 
