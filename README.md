@@ -2,12 +2,7 @@
 
 ![A baby pinguin!](http://i.imgur.com/436P5JJ.jpg)
 
-Tiny Pushbullet CLI utility. Requires 'click' and 'pushbullet.py'
-
-    pip install click
-    pip install pushbullet.py
-    
-For easy access, you can
+Tiny Pushbullet CLI utility. For easy access, you can
 
     chmod +x pinguin.py
     sudo cp pinguin.py /usr/bin/pinguin
