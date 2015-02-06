@@ -69,7 +69,7 @@ def push_message(message,detail,token):
 			print 'Looks like your API token at ~/.pb_token is invalid :('
 			print 'You can run Pinguin with the -t flag to set a new one.'
 		else:
-			print 'Pingern couldn\'t connect to the Pushbullet API'
+			print 'Pinguin couldn\'t connect to the Pushbullet API'
 			print 'Are you connected to the internet?'
 
 
