@@ -11,7 +11,7 @@ def overwrite_token(k):
 	k = k.strip()
 	home = os.path.expanduser('~')
 	with open(home + '/.pb_token','w') as file:
-		file.write(k )
+		file.write(k)
 
 def get_token():
 	home = os.path.expanduser('~')
@@ -72,10 +72,9 @@ def push_message(message,detail,token):
 			print 'Pinguin couldn\'t connect to the Pushbullet API'
 			print 'Are you connected to the internet?'
 
-
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser(description='A tiny Pushbullet CLI')
-	parser.add_argument('message',default=False,nargs='*',help='The message you want to push')
+	parser.add_argument('message',default=False,nargs='*',help='The message you want to push. Multiple inputs get added to note body.')
 	parser.add_argument('-t',action='store_true',default=False,help='Use "-t [TOKEN]" to set your Pushbullet API token')
 	args = parser.parse_args()
 	message = args.message
