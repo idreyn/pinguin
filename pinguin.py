@@ -41,6 +41,7 @@ def main(message,detail,t):
 			overwrite_token(message)
 		except:
 			print 'Failed to write your token to ~/.pb_token' + ' :('
+			return
 		print 'Great, your token has been stored in ~/.pb_token!'
 		print 'You can run Pinguin again with your message now.'
 		return
